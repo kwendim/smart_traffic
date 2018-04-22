@@ -1,0 +1,8 @@
+prefix=/home/kidus/Desktop/smart_traffic/devel
+
+Name: vehicle_detect
+Description: Description of vehicle_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kidus/Desktop/smart_traffic/devel/lib 
+Requires: 

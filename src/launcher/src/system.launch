@@ -1,0 +1,4 @@
+<launch>
+	<include file="$(find camera_capture)/launch/camera_capture.launch" />
+	<include file="$(find vehicle_detect)/launch/vehicle_detect.launch" />
+</launch>
