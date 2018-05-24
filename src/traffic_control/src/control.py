@@ -5,7 +5,7 @@ __author__= 'kidus'
 import rospy
 import message_filters
 from ros_arduino_msgs.msg import stampedInt
-from ros_arduino_msgs.srv import *
+from ros_arduino_msgs.srv import DigitalSetDirection
 import time
 
 
@@ -28,6 +28,9 @@ LANE_MAX_TIME = 15 #no matter how dense a lane maybe, this is the amount of seco
 #PIN(7,8,9) -> lane 3 red, yellow, green
 #PIN(10,11,12) -> lane 4 red, yellow, green
 
+print "waiting For Service"
+rospy.wait_for_service('/arduino/digital_set_direction')
+knock= rospy.ServiceProxy('/arduino/digital_set_direction', DigitalSetDirection)
 
 
 
