@@ -1,0 +1,8 @@
+prefix=/home/kidus/Desktop/smart_traffic/install
+
+Name: camera4_capture
+Description: Description of camera4_capture
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kidus/Desktop/smart_traffic/install/lib 
+Requires: 

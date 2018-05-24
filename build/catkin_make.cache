@@ -1,2 +1,2 @@
-camera_capture:launcher:vehicle_detect
+camera2_capture:camera3_capture:camera4_capture:camera_capture:launcher:ros_arduino_msgs:ros_arduino_python:traffic_control
 -DCATKIN_DEVEL_PREFIX=/home/kidus/Desktop/smart_traffic/devel -DCMAKE_INSTALL_PREFIX=/home/kidus/Desktop/smart_traffic/install -G Unix Makefiles

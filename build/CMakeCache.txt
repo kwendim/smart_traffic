@@ -26,6 +26,13 @@ CATKIN_DEVEL_PREFIX:PATH=/home/kidus/Desktop/smart_traffic/devel
 //Catkin enable testing
 CATKIN_ENABLE_TESTING:BOOL=ON
 
+//path to which gradle configuration and artifacts are deployed
+// in your workspace
+CATKIN_GLOBAL_GRADLE_DESTINATION:PATH=share/gradle
+
+//path to which maven artifacts are deployed in your workspace
+CATKIN_GLOBAL_MAVEN_DESTINATION:PATH=share/maven
+
 //Catkin skip testing
 CATKIN_SKIP_TESTING:BOOL=OFF
 
@@ -252,6 +259,24 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
 //Value Computed by CMake
+camera2_capture_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/camera2_capture
+
+//Value Computed by CMake
+camera2_capture_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/camera2_capture
+
+//Value Computed by CMake
+camera3_capture_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/camera3_capture
+
+//Value Computed by CMake
+camera3_capture_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/camera3_capture
+
+//Value Computed by CMake
+camera4_capture_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/camera4_capture
+
+//Value Computed by CMake
+camera4_capture_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/camera4_capture
+
+//Value Computed by CMake
 camera_capture_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/camera_capture
 
 //Value Computed by CMake
@@ -259,6 +284,24 @@ camera_capture_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/camera_ca
 
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
+
+//The directory containing a CMake configuration file for cpp_common.
+cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/indigo/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for genjava.
+genjava_DIR:PATH=/opt/ros/indigo/share/genjava/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/indigo/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/indigo/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/indigo/share/genpy/cmake
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/gtest
@@ -291,8 +334,62 @@ launcher_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/launcher
 //Value Computed by CMake
 launcher_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/launcher
 
+//Path to a library.
+lib:FILEPATH=/opt/ros/indigo/lib/librostime.so
+
+//The directory containing a CMake configuration file for message_generation.
+message_generation_DIR:PATH=/opt/ros/indigo/share/message_generation/cmake
+
+//The directory containing a CMake configuration file for message_runtime.
+message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
+
+//Value Computed by CMake
+ros_arduino_bridge_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_bridge/ros_arduino_bridge
+
+//Value Computed by CMake
+ros_arduino_bridge_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_bridge
+
+//Value Computed by CMake
+ros_arduino_firmware_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_bridge/ros_arduino_firmware
+
+//Value Computed by CMake
+ros_arduino_firmware_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_firmware
+
+//Value Computed by CMake
+ros_arduino_msgs_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_msgs
+
+//Value Computed by CMake
+ros_arduino_msgs_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_msgs
+
+//Value Computed by CMake
+ros_arduino_python_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_python
+
+//Value Computed by CMake
+ros_arduino_python_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_python
+
+//The directory containing a CMake configuration file for roscpp_serialization.
+roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
+
+//The directory containing a CMake configuration file for roscpp_traits.
+roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
+
+//The directory containing a CMake configuration file for rosjava_build_tools.
+rosjava_build_tools_DIR:PATH=/opt/ros/indigo/share/rosjava_build_tools/cmake
+
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/indigo/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rostime.
+rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+
+//Value Computed by CMake
+traffic_control_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/traffic_control
+
+//Value Computed by CMake
+traffic_control_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/traffic_control
 
 //Value Computed by CMake
 vehicle_detect_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/vehicle_detect
@@ -402,7 +499,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=5
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

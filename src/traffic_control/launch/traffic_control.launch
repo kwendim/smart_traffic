@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="traffic_control" name="traffic_control" type="control.py" output="screen"/>
+</launch>

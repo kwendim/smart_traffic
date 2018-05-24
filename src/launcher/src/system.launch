@@ -1,4 +1,9 @@
 <launch>
+	<!--param name="use_sim_time" value ="true"/-->
 	<include file="$(find camera_capture)/launch/camera_capture.launch" />
-	<include file="$(find vehicle_detect)/launch/vehicle_detect.launch" />
+	<include file="$(find camera2_capture)/launch/camera2_capture.launch" />
+	<include file="$(find camera3_capture)/launch/camera3_capture.launch" />
+	<include file="$(find camera4_capture)/launch/camera4_capture.launch" />
+	<!--include file="$(find ros_arduino_python)/launch/arduino.launch" /-->
+	<include file="$(find traffic_control)/launch/traffic_control.launch" />
 </launch>

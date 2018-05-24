@@ -1,0 +1,8 @@
+prefix=/home/kidus/Desktop/smart_traffic/devel
+
+Name: camera2_capture
+Description: Description of camera2_capture
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kidus/Desktop/smart_traffic/devel/lib 
+Requires: 

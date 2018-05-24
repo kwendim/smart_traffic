@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="camera4_capture" name="camera4_capture" type="camera4.py"/>
+</launch>

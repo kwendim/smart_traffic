@@ -117,9 +117,14 @@ ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unsp
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   INCLUDE("/home/kidus/Desktop/smart_traffic/build/gtest/cmake_install.cmake")
+  INCLUDE("/home/kidus/Desktop/smart_traffic/build/camera4_capture/cmake_install.cmake")
+  INCLUDE("/home/kidus/Desktop/smart_traffic/build/ros_arduino_python/cmake_install.cmake")
+  INCLUDE("/home/kidus/Desktop/smart_traffic/build/ros_arduino_msgs/cmake_install.cmake")
+  INCLUDE("/home/kidus/Desktop/smart_traffic/build/camera2_capture/cmake_install.cmake")
+  INCLUDE("/home/kidus/Desktop/smart_traffic/build/camera3_capture/cmake_install.cmake")
   INCLUDE("/home/kidus/Desktop/smart_traffic/build/camera_capture/cmake_install.cmake")
   INCLUDE("/home/kidus/Desktop/smart_traffic/build/launcher/cmake_install.cmake")
-  INCLUDE("/home/kidus/Desktop/smart_traffic/build/vehicle_detect/cmake_install.cmake")
+  INCLUDE("/home/kidus/Desktop/smart_traffic/build/traffic_control/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

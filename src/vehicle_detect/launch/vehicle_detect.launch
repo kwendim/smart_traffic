@@ -1,3 +1,0 @@
-<launch>	
-	<node pkg="vehicle_detect" type="vehicle.py" name="vehicle_detect"/>
-</launch>

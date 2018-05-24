@@ -1,0 +1,8 @@
+prefix=/home/kidus/Desktop/smart_traffic/devel
+
+Name: traffic_control
+Description: Description of traffic_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/kidus/Desktop/smart_traffic/devel/lib 
+Requires: 
