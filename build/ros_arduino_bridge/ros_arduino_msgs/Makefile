@@ -318,6 +318,20 @@ _ros_arduino_msgs_generate_messages_check_deps_ServoWrite/fast:
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_ServoWrite/fast
 
 # Convenience name for target.
+ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/rule:
+	cd /home/kidus/Desktop/smart_traffic/build && $(MAKE) -f CMakeFiles/Makefile2 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/rule
+.PHONY : ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/rule
+
+# Convenience name for target.
+_ros_arduino_msgs_generate_messages_check_deps_stampedInt: ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/rule
+.PHONY : _ros_arduino_msgs_generate_messages_check_deps_stampedInt
+
+# fast build rule for target.
+_ros_arduino_msgs_generate_messages_check_deps_stampedInt/fast:
+	cd /home/kidus/Desktop/smart_traffic/build && $(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/build
+.PHONY : _ros_arduino_msgs_generate_messages_check_deps_stampedInt/fast
+
+# Convenience name for target.
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/rule:
 	cd /home/kidus/Desktop/smart_traffic/build && $(MAKE) -f CMakeFiles/Makefile2 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/rule
 .PHONY : ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/rule
@@ -517,6 +531,7 @@ help:
 	@echo "... _ros_arduino_msgs_generate_messages_check_deps_SensorState"
 	@echo "... _ros_arduino_msgs_generate_messages_check_deps_ServoRead"
 	@echo "... _ros_arduino_msgs_generate_messages_check_deps_ServoWrite"
+	@echo "... _ros_arduino_msgs_generate_messages_check_deps_stampedInt"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"

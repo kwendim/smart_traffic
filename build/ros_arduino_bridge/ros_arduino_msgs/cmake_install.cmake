@@ -39,6 +39,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
     "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
     "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/SensorState.msg"
+    "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

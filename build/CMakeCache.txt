@@ -356,16 +356,16 @@ ros_arduino_firmware_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/r
 ros_arduino_firmware_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_firmware
 
 //Value Computed by CMake
-ros_arduino_msgs_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_msgs
+ros_arduino_msgs_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_bridge/ros_arduino_msgs
 
 //Value Computed by CMake
-ros_arduino_msgs_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_msgs
+ros_arduino_msgs_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs
 
 //Value Computed by CMake
-ros_arduino_python_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_python
+ros_arduino_python_BINARY_DIR:STATIC=/home/kidus/Desktop/smart_traffic/build/ros_arduino_bridge/ros_arduino_python
 
 //Value Computed by CMake
-ros_arduino_python_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_python
+ros_arduino_python_SOURCE_DIR:STATIC=/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_python
 
 //The directory containing a CMake configuration file for roscpp_serialization.
 roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
@@ -499,7 +499,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=10
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

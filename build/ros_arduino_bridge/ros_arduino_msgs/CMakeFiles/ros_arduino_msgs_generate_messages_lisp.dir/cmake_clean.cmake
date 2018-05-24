@@ -1,10 +1,11 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/ros_arduino_msgs_generate_messages_lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/SensorState.lisp"
+  "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/ArduinoConstants.lisp"
+  "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/stampedInt.lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/Digital.lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/Analog.lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/AnalogFloat.lisp"
-  "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/msg/ArduinoConstants.lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/srv/DigitalSetDirection.lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/srv/ServoRead.lisp"
   "/home/kidus/Desktop/smart_traffic/devel/share/common-lisp/ros/ros_arduino_msgs/srv/AnalogWrite.lisp"

@@ -1,6 +1,6 @@
 # generated from genmsg/cmake/pkg-genmsg.cmake.em
 
-message(STATUS "ros_arduino_msgs: 5 messages, 7 services")
+message(STATUS "ros_arduino_msgs: 6 messages, 7 services")
 
 set(MSG_I_FLAGS "-Iros_arduino_msgs:/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg")
 
@@ -29,6 +29,11 @@ add_custom_target(_ros_arduino_msgs_generate_messages_check_deps_${_filename}
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg" NAME_WE)
 add_custom_target(_ros_arduino_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_arduino_msgs" "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg" ""
+)
+
+get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg" NAME_WE)
+add_custom_target(_ros_arduino_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "ros_arduino_msgs" "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg" "std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg" NAME_WE)
@@ -89,6 +94,18 @@ _generate_msg_cpp(ros_arduino_msgs
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_arduino_msgs
 )
 _generate_msg_cpp(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_cpp(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_cpp(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
@@ -104,12 +121,6 @@ _generate_msg_cpp(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_arduino_msgs
-)
-_generate_msg_cpp(ros_arduino_msgs
-  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/ros_arduino_msgs
 )
 
@@ -175,6 +186,8 @@ get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_ardu
 add_dependencies(ros_arduino_msgs_generate_messages_cpp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_cpp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg" NAME_WE)
+add_dependencies(ros_arduino_msgs_generate_messages_cpp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_cpp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg" NAME_WE)
@@ -210,6 +223,18 @@ _generate_msg_java(ros_arduino_msgs
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/ros_arduino_msgs
 )
 _generate_msg_java(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_java(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_java(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
@@ -225,12 +250,6 @@ _generate_msg_java(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/ros_arduino_msgs
-)
-_generate_msg_java(ros_arduino_msgs
-  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${genjava_INSTALL_DIR}/ros_arduino_msgs
 )
 
@@ -296,6 +315,8 @@ get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_ardu
 add_dependencies(ros_arduino_msgs_generate_messages_java _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_java _ros_arduino_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg" NAME_WE)
+add_dependencies(ros_arduino_msgs_generate_messages_java _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_java _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg" NAME_WE)
@@ -331,6 +352,18 @@ _generate_msg_lisp(ros_arduino_msgs
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_arduino_msgs
 )
 _generate_msg_lisp(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_lisp(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_lisp(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
@@ -346,12 +379,6 @@ _generate_msg_lisp(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_arduino_msgs
-)
-_generate_msg_lisp(ros_arduino_msgs
-  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/ros_arduino_msgs
 )
 
@@ -417,6 +444,8 @@ get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_ardu
 add_dependencies(ros_arduino_msgs_generate_messages_lisp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_lisp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg" NAME_WE)
+add_dependencies(ros_arduino_msgs_generate_messages_lisp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_lisp _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg" NAME_WE)
@@ -452,6 +481,18 @@ _generate_msg_py(ros_arduino_msgs
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_arduino_msgs
 )
 _generate_msg_py(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_py(ros_arduino_msgs
+  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_arduino_msgs
+)
+_generate_msg_py(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
@@ -467,12 +508,6 @@ _generate_msg_py(ros_arduino_msgs
   "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_arduino_msgs
-)
-_generate_msg_py(ros_arduino_msgs
-  "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg"
-  "${MSG_I_FLAGS}"
-  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/ros_arduino_msgs
 )
 
@@ -537,6 +572,8 @@ add_dependencies(ros_arduino_msgs_generate_messages_py _ros_arduino_msgs_generat
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalSetDirection.srv" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_py _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg" NAME_WE)
+add_dependencies(ros_arduino_msgs_generate_messages_py _ros_arduino_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_py _ros_arduino_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg" NAME_WE)
 add_dependencies(ros_arduino_msgs_generate_messages_py _ros_arduino_msgs_generate_messages_check_deps_${_filename})

@@ -31,7 +31,6 @@ LANE_MAX_TIME = 15 #no matter how dense a lane maybe, this is the amount of seco
 
 
 
-#The callbacks below are for subscribing and reporting how many cars are in each lane. Read about message_filters.
 def density_check():
 	global order_counter, order
 	temp_order = [(cars_lane1,1),(cars_lane2,2),(cars_lane3,3),(cars_lane4,4)]
@@ -74,6 +73,7 @@ def reset():
 	time_allotted = [0,0,0,0]
 	is_green = False
 
+#The callbacks below are for subscribing and reporting how many cars are in each lane. Read about message_filters.
 
 def lane1_callback(data): 
 	global cars_lane1 #By setting the variable to global, we change it's value in all parts of the code and not just in this function

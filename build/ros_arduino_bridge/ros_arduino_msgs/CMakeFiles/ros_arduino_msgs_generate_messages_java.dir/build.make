@@ -47,13 +47,15 @@ include ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate
 
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/SensorState.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg
+ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg
+ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalSetDirection.srv
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/ServoRead.srv
 ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/AnalogWrite.srv
@@ -66,13 +68,15 @@ ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_message
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /opt/ros/indigo/share/genjava/cmake/../../../lib/genjava/genjava_gradle_project.py
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/SensorState.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
+ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg
+ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/stampedInt.msg
+ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Digital.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/Analog.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/AnalogFloat.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg
-ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/msg/ArduinoConstants.msg
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/DigitalSetDirection.srv
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/ServoRead.srv
 ros_arduino_bridge/ros_arduino_msgs/java/ros_arduino_msgs/build.gradle: /home/kidus/Desktop/smart_traffic/src/ros_arduino_bridge/ros_arduino_msgs/srv/AnalogWrite.srv

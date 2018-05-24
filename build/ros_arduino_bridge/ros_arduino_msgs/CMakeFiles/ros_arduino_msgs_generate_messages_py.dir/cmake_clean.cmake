@@ -1,10 +1,11 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/ros_arduino_msgs_generate_messages_py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_SensorState.py"
+  "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_ArduinoConstants.py"
+  "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_stampedInt.py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_Digital.py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_Analog.py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_AnalogFloat.py"
-  "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/msg/_ArduinoConstants.py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/srv/_DigitalSetDirection.py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/srv/_ServoRead.py"
   "/home/kidus/Desktop/smart_traffic/devel/lib/python2.7/dist-packages/ros_arduino_msgs/srv/_AnalogWrite.py"

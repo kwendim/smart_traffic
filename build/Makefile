@@ -263,7 +263,7 @@ _ros_arduino_msgs_generate_messages_check_deps_Analog: cmake_check_build_system
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_Analog/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Analog.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Analog.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Analog.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Analog.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_Analog/fast
 
 #=============================================================================
@@ -276,7 +276,7 @@ _ros_arduino_msgs_generate_messages_check_deps_AnalogFloat: cmake_check_build_sy
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_AnalogFloat/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogFloat.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogFloat.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogFloat.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogFloat.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_AnalogFloat/fast
 
 #=============================================================================
@@ -289,7 +289,7 @@ _ros_arduino_msgs_generate_messages_check_deps_AnalogRead: cmake_check_build_sys
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_AnalogRead/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogRead.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogRead.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogRead.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogRead.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_AnalogRead/fast
 
 #=============================================================================
@@ -302,7 +302,7 @@ _ros_arduino_msgs_generate_messages_check_deps_AnalogWrite: cmake_check_build_sy
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_AnalogWrite/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogWrite.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogWrite.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogWrite.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_AnalogWrite.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_AnalogWrite/fast
 
 #=============================================================================
@@ -315,7 +315,7 @@ _ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants: cmake_check_bui
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_ArduinoConstants/fast
 
 #=============================================================================
@@ -328,7 +328,7 @@ _ros_arduino_msgs_generate_messages_check_deps_Digital: cmake_check_build_system
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_Digital/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Digital.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Digital.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Digital.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_Digital.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_Digital/fast
 
 #=============================================================================
@@ -341,7 +341,7 @@ _ros_arduino_msgs_generate_messages_check_deps_DigitalRead: cmake_check_build_sy
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_DigitalRead/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalRead.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalRead.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalRead.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalRead.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_DigitalRead/fast
 
 #=============================================================================
@@ -354,7 +354,7 @@ _ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection: cmake_check_
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_DigitalSetDirection/fast
 
 #=============================================================================
@@ -367,7 +367,7 @@ _ros_arduino_msgs_generate_messages_check_deps_DigitalWrite: cmake_check_build_s
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_DigitalWrite/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalWrite.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalWrite.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalWrite.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_DigitalWrite.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_DigitalWrite/fast
 
 #=============================================================================
@@ -380,7 +380,7 @@ _ros_arduino_msgs_generate_messages_check_deps_SensorState: cmake_check_build_sy
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_SensorState/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_SensorState.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_SensorState.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_SensorState.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_SensorState.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_SensorState/fast
 
 #=============================================================================
@@ -393,7 +393,7 @@ _ros_arduino_msgs_generate_messages_check_deps_ServoRead: cmake_check_build_syst
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_ServoRead/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoRead.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoRead.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoRead.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoRead.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_ServoRead/fast
 
 #=============================================================================
@@ -406,7 +406,7 @@ _ros_arduino_msgs_generate_messages_check_deps_ServoWrite: cmake_check_build_sys
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_ServoWrite/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoWrite.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoWrite.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoWrite.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_ServoWrite.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_ServoWrite/fast
 
 #=============================================================================
@@ -419,7 +419,7 @@ _ros_arduino_msgs_generate_messages_check_deps_stampedInt: cmake_check_build_sys
 
 # fast build rule for target.
 _ros_arduino_msgs_generate_messages_check_deps_stampedInt/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/build.make ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/_ros_arduino_msgs_generate_messages_check_deps_stampedInt.dir/build
 .PHONY : _ros_arduino_msgs_generate_messages_check_deps_stampedInt/fast
 
 #=============================================================================
@@ -432,7 +432,7 @@ ros_arduino_msgs_gencpp: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_gencpp/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_gencpp.dir/build
 .PHONY : ros_arduino_msgs_gencpp/fast
 
 #=============================================================================
@@ -445,7 +445,7 @@ ros_arduino_msgs_generate_messages: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_generate_messages/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages.dir/build
 .PHONY : ros_arduino_msgs_generate_messages/fast
 
 #=============================================================================
@@ -458,7 +458,7 @@ ros_arduino_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_cpp.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_cpp.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_cpp.dir/build
 .PHONY : ros_arduino_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -471,7 +471,7 @@ ros_arduino_msgs_generate_messages_java: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_generate_messages_java/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java.dir/build
 .PHONY : ros_arduino_msgs_generate_messages_java/fast
 
 #=============================================================================
@@ -484,7 +484,7 @@ ros_arduino_msgs_generate_messages_java_gradle: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_generate_messages_java_gradle/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java_gradle.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java_gradle.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java_gradle.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_java_gradle.dir/build
 .PHONY : ros_arduino_msgs_generate_messages_java_gradle/fast
 
 #=============================================================================
@@ -497,7 +497,7 @@ ros_arduino_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_lisp.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_lisp.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_lisp.dir/build
 .PHONY : ros_arduino_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -510,7 +510,7 @@ ros_arduino_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_generate_messages_py/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_py.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_py.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_py.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_generate_messages_py.dir/build
 .PHONY : ros_arduino_msgs_generate_messages_py/fast
 
 #=============================================================================
@@ -523,7 +523,7 @@ ros_arduino_msgs_genjava: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_genjava/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genjava.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genjava.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genjava.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genjava.dir/build
 .PHONY : ros_arduino_msgs_genjava/fast
 
 #=============================================================================
@@ -536,7 +536,7 @@ ros_arduino_msgs_genlisp: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_genlisp/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genlisp.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genlisp.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genlisp.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genlisp.dir/build
 .PHONY : ros_arduino_msgs_genlisp/fast
 
 #=============================================================================
@@ -549,7 +549,7 @@ ros_arduino_msgs_genpy: cmake_check_build_system
 
 # fast build rule for target.
 ros_arduino_msgs_genpy/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genpy.dir/build.make ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genpy.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genpy.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/ros_arduino_msgs_genpy.dir/build
 .PHONY : ros_arduino_msgs_genpy/fast
 
 #=============================================================================
@@ -562,7 +562,7 @@ std_msgs_generate_messages_cpp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 #=============================================================================
@@ -575,7 +575,7 @@ std_msgs_generate_messages_lisp: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
@@ -588,7 +588,7 @@ std_msgs_generate_messages_py: cmake_check_build_system
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	$(MAKE) -f ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	$(MAKE) -f ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build.make ros_arduino_bridge/ros_arduino_msgs/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 # Help Target
